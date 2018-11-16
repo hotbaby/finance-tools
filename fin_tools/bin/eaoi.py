@@ -2,7 +2,7 @@
 
 import click
 
-from finance_tools import finance_eaoi_annual_rate
+from fin_tools import finance_eaoi_annual_rate
 
 
 @click.command('eaoi')

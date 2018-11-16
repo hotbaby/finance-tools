@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="finance-tools",
+    name="fintools",
     version="0.1.0",
     author="Meng yangyang",
     author_email="mengyy_linux@163.com",
@@ -16,7 +16,7 @@ setuptools.setup(
     install_requires=["click>=7.0", "numpy>=1.15.4"],
     entry_points={
         'console_scripts': [
-            'finance-eaoi=finance_tools.bin.eaoi:cli'
+            'fin-eaoi=fin_tools.bin.eaoi:cli'
         ]
     },
     packages=setuptools.find_packages(),
